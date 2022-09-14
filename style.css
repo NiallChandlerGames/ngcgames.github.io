@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Phased';
+    font-style: normal;
+    font-weight: normal;
+    src: local('fonts/Phased'), format('ttf');
+}
+ 
+@font-face {
+    font-family: 'OpenDyslexic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('fonts/OpenDyslexic'), format('ttf');
+}
+
+@font-face {
+    font-family: 'SourceSans3';
+    font-style: normal;
+    font-weight: normal;
+    src: local('fonts/SourceSans3'), format('ttf');
+}
+
+/*The page's font, background colour, colour, width & height*/
+html,body {
+    overflow-x: hidden;
+    cursor: default;
+    font-family: 'OpenDyslexic';
+    background-color: black;
+    color: white;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+/*Center text*/
+.center {
+    text-align: center;
+    text-size-adjust: auto;
+}
+
+/*Center image*/
+.img{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Header Content*/
+.header{
+    padding: 0px;
+    text-align: center;
+    text-size-adjust: auto;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*Top bar*/
+.topbar{
+    position:fixed;
+    z-index:1;
+    top:0;
+}
