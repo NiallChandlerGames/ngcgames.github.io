@@ -19,7 +19,7 @@
     src: local('fonts/SourceSans3'), format('ttf');
 }
 
-/*The page's font, background colour, colour, width & height*/
+/*The page's font, background colour, colour and width*/
 html,body {
     overflow-x: hidden;
     cursor: default;
